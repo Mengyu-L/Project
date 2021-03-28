@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/page.css">
     <title>feedbackpage</title>
 </head>
 <body>
-    <div>
+    <!-- nav start -->
+    <div class="nav">
         <img src="images/logo.png" alt="logo" title="logo"/>
-        <div>
+        <div class="nav_ul">
             <ul>
                 <li><a href="index.html">Home page</a></li>
                 <li><a href="Intro of Guzheng.html">Intro of Guzheng</a></li>
@@ -18,26 +21,39 @@
                 <li><a href="My story with Guzheng.html">My story with Guzheng</a></li>
             </ul>
         </div>
-    </div>
-    <form>
-        <div>
-            <p>Your Information</p>
+        <a href="/sitemap.html">sitmap</a>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Key words...">
+                <button type="submit"><img src="images/search.png" alt="search" title="search"></button>
+            </form>
+        </div>
+    </div> 
+    <!-- nav end -->
+    <form action="" class="bg" style="margin-top:64px;">
+        <div id="box">
+            <p id="title">Your Information</p>
             <label>Name:</label>
             <input type="text" placeholder="Enter your name here"><br />
+
             <label>Email:</label>
             <input type="email" placeholder="Enter your email here"><br />
+
             <label>Do you want to learn more about guzheng?</label>
             <select name="">
                 <option value="yes">yes</option>
                 <option value="maybe later">maybe later</option>
             </select>
             <br />
-            <input type="checkbox" checked>
+
+            <input type="checkbox" checked />
             <label>sign me up for email updates</label><br />
+
             <label>Comments:</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="30" rows="5" style="vertical-align:top;"></textarea><br />
+
             <button>send</button>
-    </div>
+        </div>
     </form>
 </body>
 </html>

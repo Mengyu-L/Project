@@ -1,0 +1,26 @@
+.main h1{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 50px;
+}
+.box{
+    display: flex;
+    margin: 20px 150px;
+}
+.box1{
+    flex: 1;
+    margin: 0px 10px 30px 10px;
+}
+.box1 iframe{
+    width: 370px;
+    height: 300px;
+    padding: 0px 10px;
+}
+.box h3{
+    text-align: center;
+    padding: 20px 0px;
+}
+.box1 span{
+    display: block;
+    padding: 10px 10px;
+}

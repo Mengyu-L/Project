@@ -1,0 +1,24 @@
+.left{
+    float: left;
+    margin-top: 30px;
+}
+.right{
+    width: 500px;
+    float: right;
+    padding: 0px 30px 95px;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    background: url(../images/my_bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+.main{
+    margin: 0px 200px;
+}
+h2{
+    margin: 70px 0px 50px 0px;
+    text-align: center;
+    font-size: 35px;
+}
+span{
+    letter-spacing: 1.5px;
+}
