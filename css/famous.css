@@ -1,3 +1,7 @@
+.main{
+    background:url(../images/famous_bg.jpg);
+    background-size: 100% 100%;
+}
 .main h1{
     text-align: center;
     padding: 40px 0px;
@@ -5,22 +9,43 @@
 }
 .box{
     display: flex;
-    margin: 20px 150px;
+    margin: 0px 150px;
 }
 .box1{
     flex: 1;
     margin: 0px 10px 30px 10px;
+    border-radius: 5px;
+  height: 720px; 
 }
 .box1 iframe{
     width: 370px;
     height: 300px;
-    padding: 0px 10px;
+    padding:10px;
+    background-color: rgb(173, 135, 107,0.2);
+}
+
+.item{
+    transition: 0.5s;
+    height: 320px;
+    overflow: hidden;
+    background-color: white;
+}
+.item:hover{
+    height: 720px; 
+}
+
+.box1:hover  span,.box1:hover h3{
+    opacity: 1;
 }
 .box h3{
+    transition: 2s;
+    opacity: 0;
     text-align: center;
     padding: 20px 0px;
 }
 .box1 span{
+    transition: 2s;
+    opacity: 0;
     display: block;
     padding: 10px 10px;
 }

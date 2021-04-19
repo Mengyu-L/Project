@@ -5,6 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sitemap</title>
+    <style>
+        ul{
+            float: left;
+        }
+        li{
+            list-style-type: none;
+            background-color: rgb(1, 190, 127);
+            width: 250px;
+            height: 40px;
+            border: 1px solid #f4f4f4;
+            text-align: center;
+            line-height: 40px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            color: blue;
+        }
+        .bigTip{
+            background-color: #fff;
+            position: relative;
+            width: 400px;
+            height: 150px;
+            border:1px solid #000;
+            border-radius: 10px;
+            padding: 10px;
+            float: left;
+            margin: 40px 0px 0px 35px;
+            background-color: rgb(228, 204, 173);
+        }
+        .smallTriangle{
+            background-color: rgb(228, 204, 173);
+            width: 20px;
+            height: 20px;
+            border: 1px solid #000;
+            position: absolute;
+            left: -12px;
+            top: 30px;
+            transform: rotate(-45deg);
+            border-right:0px;
+            border-bottom:0px;
+        }
+        p{
+            text-indent: 2em;
+        }
+    </style>
 </head>
 <body>
     <ul>
@@ -14,6 +62,9 @@
         <li><a href="Style of Guzheng.html">Style of Guzheng</a></li>
         <li><a href="My story with Guzheng.html">My story with Guzheng</a></li>
     </ul>
-    <p>I,Mengyu Liu, pledge my honor that I have neither received nor provided unauthorized assistance during the completion of this work. I have read the term project instructions and observed all the restrictions and limitations specified therein.</p>
+    <div class="bigTip">
+        <div class="smallTriangle"></div>
+        <p>I,Mengyu Liu, pledge my honor that I have neither received nor provided unauthorized assistance during the completion of this work. I have read the term project instructions and observed all the restrictions and limitations specified therein.</p>
+    </div>
 </body>
 </html>
