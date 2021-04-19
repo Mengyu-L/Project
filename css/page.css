@@ -27,8 +27,8 @@ input,select,#title,textarea{
 #box{
     position: absolute;
     top: 12%;
-    left: 34%;
-    width:500px;
+    left: 30%;
+    width:650px;
     height:500px;
     text-align: center;
     background: inherit;
@@ -47,7 +47,15 @@ input,select,#title,textarea{
     background: #999;
     color: white;
 }
-#box>input[type="text"],input[type="email"]{
-    padding: 5px 0px 5px 13px;
+#left{
+    margin: 0 auto;
+    width: 75%;
+    text-align: left;
+}
 
+#left>input[type="text"],input[type="email"]{
+    padding: 5px 0px 5px 13px;
+}
+span{
+    color: rgb(114, 114, 114);
 }

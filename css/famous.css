@@ -15,7 +15,7 @@
     flex: 1;
     margin: 0px 10px 30px 10px;
     border-radius: 5px;
-  height: 720px; 
+    height: 720px; 
 }
 .box1 iframe{
     width: 370px;
@@ -23,17 +23,19 @@
     padding:10px;
     background-color: rgb(173, 135, 107,0.2);
 }
-
 .item{
     transition: 0.5s;
-    height: 320px;
+    height: 345px;
     overflow: hidden;
     background-color: white;
+    position: relative;
 }
 .item:hover{
     height: 720px; 
 }
-
+.item:hover .miaoshu{
+    opacity: 0;
+}
 .box1:hover  span,.box1:hover h3{
     opacity: 1;
 }
@@ -48,4 +50,14 @@
     opacity: 0;
     display: block;
     padding: 10px 10px;
+}
+.description{
+    text-align: center;
+    font-size: 14px;
+    opacity: 1;
+    transition: 0.5s;
+    padding: 5px 0;
+    left:0;
+    bottom: 0;
+    position: absolute;
 }
