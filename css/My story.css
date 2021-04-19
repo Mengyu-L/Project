@@ -1,18 +1,22 @@
 .left{
     float: left;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .right{
     width: 500px;
     float: right;
-    padding: 0px 30px 95px;
-    margin-top: 30px;
+    padding: 0px 30px 75px;
+    margin-top: 60px;
     border: 1px solid #ccc;
     background: url(../images/my_bg.jpg) no-repeat;
     background-size: 100% 100%;
 }
 .main{
-    margin: 0px 200px;
+    height: 100vh;
+    padding: 0 200px;
+    box-sizing: border-box;
+    background: url(../images/story_bg.jpg) no-repeat;
+    background-size: 100% 100%;
 }
 h2{
     margin: 70px 0px 50px 0px;
